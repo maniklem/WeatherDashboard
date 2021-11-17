@@ -7,9 +7,9 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "start": "vue-cli-service start",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "serve": "vue-cli-service serve"
+    "serve": "vue-cli-service serve",
+    "start": "node server.js"
     
   },
   "dependencies": {
